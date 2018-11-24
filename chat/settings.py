@@ -37,6 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'django_summernote',
+
+    'rest_framework',
+    "rest_framework.authtoken",
+    'djoser',
+
+    "chat_room",
 ]
 
 MIDDLEWARE = [
